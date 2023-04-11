@@ -134,4 +134,4 @@ async def dm(ctx, user: discord.User, *, message=None):
     embed.set_author(name=ctx.author.name+"#"+ctx.author.discriminator)
     await channel.send(embed=embed)
 
-bot.run("MTAzODgxNTExMzc5NDI5Nzg5Ng.G9Y66c.K1fAt5_sI38tgM64sq-IsuH-v5Rd8p3PVvPltk")
+bot.run("TOKEN_HERE")
